@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Hediff Central da Matriz de Feitiço da Alma -->
+  <HediffDef>
+    <defName>REM_Hediff_SoulMatrix</defName>
+    <label>Matriz de Feitiço da Alma</label>
+    <description>O núcleo metafísico que armazena energia espiritual e conecta a alma aos 30.000 Mundos. Permite cultivar, acumular energia e passar pelo Batismo das Leis da Magia.</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_SoulMatrix</hediffClass>
+    <defaultLabelColor>(0.40, 0.85, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+    <keepOnBodyPartRestoration>true</keepOnBodyPartRestoration>
+    <stages>
+      <li>
+        <label>Classe Mortal</label>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.05</offset>
+          </li>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+          <GlobalLearningFactor>0.10</GlobalLearningFactor>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+
+  <!-- Hediff de Metamorfose Biológica da Pérola Mágica -->
+  <HediffDef>
+    <defName>REM_Hediff_MetamorphicForm</defName>
+    <label>Metamorfose da Alma</label>
+    <description>O corpo físico deste colono foi remodelado na carne, ossos e casca de uma besta assimilada pela Pérola Mágica. Roupas e armas humanas descansam em um vácuo espiritual.</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_MetamorphicForm</hediffClass>
+    <defaultLabelColor>(0.95, 0.70, 0.25)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+</Defs>

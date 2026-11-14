@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Reborn: Evolving From Nothing - Magic &amp; Soul Matrix</name>
+  <author>Renan Moura</author>
+  <packageId>reborn.evolvingmagic</packageId>
+  <modVersion>1.0.0</modVersion>
+  <supportedVersions>
+    <li>1.6</li>
+    <li>1.7</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>Ludeon.RimWorld</li>
+    <li>Ludeon.RimWorld.Royalty</li>
+    <li>Ludeon.RimWorld.Ideology</li>
+    <li>Ludeon.RimWorld.Biotech</li>
+    <li>Ludeon.RimWorld.Anomaly</li>
+    <li>Ludeon.RimWorld.Odyssey</li>
+    <li>brrainz.harmony</li>
+    <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+    <li>VanillaExpanded.VPsycastsE</li>
+    <li>Torann.ARimworldOfMagic</li>
+    <li>blues.forge</li>
+  </loadAfter>
+  <description>Um sistema de magia e evolução independente para RimWorld 1.6 e 1.7 inspirado nos Caminhos de Poder da obra "Reborn: Evolving From Nothing".
+
+Recursos Principais:
+• Matriz de Feitiço da Alma (Soul Spell Matrix): Evolua através das 9 Classes dos 30.000 Mundos (Mortal, Earth, Sky, Master, Grandmaster, Lord, King, Angelic e Ascendancy).
+• Compreensão das Leis Universais &amp; Auras: Domine as 4 Leis Elementais Destrutivas (Lei do Fogo/Ira, Lei do Gelo/Estase, Lei do Raio/Destruição, Lei da Terra/Gravidade) e manifeste sua Aura ao alcançar a Classe Lorde.
+• Evolução &amp; Absorção de Linhagens: Absorva Matrizes de Alma de criaturas abatidas para mutar sua linhagem (Salamandra Vermelha, Dragão Myyr, Ifrit Primordial, Titã do Mundo, Predador do Vazio).
+• Artes Marciais Místicas &amp; Corpo de Alma (Soul Body): Refinamento físico sobre-humano e regeneração automática de órgãos, membros e cicatrizes nos estágios Angelic e Ascendancy.</description>
+</ModMetaData>

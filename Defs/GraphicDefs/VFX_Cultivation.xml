@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- ==================== CUSTOM FLECKS ==================== -->
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>REM_Fleck_RuneCircleFloor</defName>
+    <altitudeLayer>MoteLow</altitudeLayer>
+    <fadeInTime>0.08</fadeInTime>
+    <solidTime>0.42</solidTime>
+    <fadeOutTime>0.36</fadeOutTime>
+    <growthRate>0.25</growthRate>
+    <graphicData>
+      <texPath>Motes/RebornMagic/RuneCircle</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>REM_Fleck_RuneCircleFast</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.03</fadeInTime>
+    <solidTime>0.12</solidTime>
+    <fadeOutTime>0.26</fadeOutTime>
+    <growthRate>1.8</growthRate>
+    <graphicData>
+      <texPath>Motes/RebornMagic/RuneCircle</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>REM_Fleck_SwirlIn</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.05</fadeInTime>
+    <solidTime>0.10</solidTime>
+    <fadeOutTime>0.25</fadeOutTime>
+    <growthRate>-2.4</growthRate>
+    <graphicData>
+      <texPath>Motes/RebornMagic/SwirlVortex</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>REM_Fleck_SwirlOut</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.03</fadeInTime>
+    <solidTime>0.10</solidTime>
+    <fadeOutTime>0.28</fadeOutTime>
+    <growthRate>2.6</growthRate>
+    <graphicData>
+      <texPath>Motes/RebornMagic/SwirlVortex</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>REM_Fleck_Shockwave</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.01</fadeInTime>
+    <solidTime>0.05</solidTime>
+    <fadeOutTime>0.26</fadeOutTime>
+    <growthRate>5.5</growthRate>
+    <graphicData>
+      <texPath>Motes/RebornMagic/ShockwaveRing</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>REM_Fleck_GlowOrb</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.02</fadeInTime>
+    <solidTime>0.06</solidTime>
+    <fadeOutTime>0.22</fadeOutTime>
+    <growthRate>-0.8</growthRate>
+    <graphicData>
+      <texPath>Motes/RebornMagic/GlowOrb</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>REM_Fleck_SoftSpark</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.02</fadeInTime>
+    <solidTime>0.08</solidTime>
+    <fadeOutTime>0.24</fadeOutTime>
+    <growthRate>-0.5</growthRate>
+    <graphicData>
+      <texPath>Motes/RebornMagic/SoftSpark</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>REM_Fleck_EnergyStreak</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.01</fadeInTime>
+    <solidTime>0.05</solidTime>
+    <fadeOutTime>0.20</fadeOutTime>
+    <growthRate>0.35</growthRate>
+    <rotateTowardsMoveDirection>true</rotateTowardsMoveDirection>
+    <graphicData>
+      <texPath>Motes/RebornMagic/EnergyStreak</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>REM_Fleck_IceCrystal</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.04</fadeInTime>
+    <solidTime>0.16</solidTime>
+    <fadeOutTime>0.34</fadeOutTime>
+    <growthRate>-0.35</growthRate>
+    <graphicData>
+      <texPath>Motes/RebornMagic/IceCrystal</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>REM_Fleck_FlameWisp</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.02</fadeInTime>
+    <solidTime>0.08</solidTime>
+    <fadeOutTime>0.24</fadeOutTime>
+    <growthRate>0.65</growthRate>
+    <graphicData>
+      <texPath>Motes/RebornMagic/FlameWisp</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>REM_Fleck_StoneShard</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.04</fadeInTime>
+    <solidTime>0.20</solidTime>
+    <fadeOutTime>0.28</fadeOutTime>
+    <growthRate>-0.25</growthRate>
+    <graphicData>
+      <texPath>Motes/RebornMagic/StoneShard</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>REM_Fleck_HealingPetal</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.05</fadeInTime>
+    <solidTime>0.22</solidTime>
+    <fadeOutTime>0.32</fadeOutTime>
+    <growthRate>0.20</growthRate>
+    <graphicData>
+      <texPath>Motes/RebornMagic/HealingPetal</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>REM_Fleck_PowerBeam</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <fadeInTime>0.08</fadeInTime>
+    <solidTime>0.45</solidTime>
+    <fadeOutTime>0.45</fadeOutTime>
+    <growthRate>-0.25</growthRate>
+    <graphicData>
+      <texPath>Motes/RebornMagic/PowerBeam</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>REM_Fleck_OrbitOrb</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <useAttachLink>true</useAttachLink>
+    <fadeInTime>0.14</fadeInTime>
+    <solidTime>0.55</solidTime>
+    <fadeOutTime>0.28</fadeOutTime>
+    <growthRate>-0.08</growthRate>
+    <graphicData>
+      <texPath>Motes/RebornMagic/GlowOrb</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+
+  <FleckDef ParentName="FleckBase_Thrown">
+    <defName>REM_Fleck_Afterimage</defName>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <fadeInTime>0.01</fadeInTime>
+    <solidTime>0.04</solidTime>
+    <fadeOutTime>0.24</fadeOutTime>
+    <growthRate>-0.55</growthRate>
+    <graphicData>
+      <texPath>Motes/RebornMagic/GlowOrb</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+  </FleckDef>
+
+  <!-- ==================== LIGHTNING ARC THING ==================== -->
+
+  <ThingDef ParentName="EtherealThingBase">
+    <defName>REM_Thing_LightningArc</defName>
+    <label>arco voltaico visual</label>
+    <thingClass>RebornEvolvingMagic.RebornLightningArc</thingClass>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <isSaveable>false</isSaveable>
+  </ThingDef>
+
+  <!-- ==================== MOVEMENT FLYERS ==================== -->
+
+  <ThingDef ParentName="PawnFlyerBase">
+    <defName>REM_Flyer_WindDash</defName>
+    <label>passo do vento</label>
+    <thingClass>RebornEvolvingMagic.RebornDashFlyer</thingClass>
+    <pawnFlyer>
+      <flightDurationMin>0.16</flightDurationMin>
+      <flightSpeed>32</flightSpeed>
+      <heightFactor>0.12</heightFactor>
+    </pawnFlyer>
+  </ThingDef>
+
+  <ThingDef ParentName="PawnFlyerBase">
+    <defName>REM_Flyer_SkyStep</defName>
+    <label>passo celestial</label>
+    <thingClass>RebornEvolvingMagic.RebornSkyStepFlyer</thingClass>
+    <pawnFlyer>
+      <flightDurationMin>0.24</flightDurationMin>
+      <flightSpeed>28</flightSpeed>
+      <heightFactor>1.6</heightFactor>
+    </pawnFlyer>
+  </ThingDef>
+
+</Defs>

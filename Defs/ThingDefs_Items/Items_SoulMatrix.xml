@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Cristal de Despertar da Alma -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>REM_SoulMatrixCrystal</defName>
+    <label>Cristal de Matriz da Alma</label>
+    <description>Um cristal condensado com energia espiritual dos 30.000 Mundos. Ao ser absorvido por um colono comum, desperta sua Matriz de Feitiço da Alma na Classe Mortal.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <graphicData>
+      <texPath>UI/RebornMagic/Item_SoulMatrixCrystal</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>0.85</drawSize>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>25</stackLimit>
+    <statBases>
+      <MaxHitPoints>80</MaxHitPoints>
+      <MarketValue>250</MarketValue>
+      <Mass>0.2</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Despertar Matriz da Alma</useLabel>
+        <useDuration>120</useDuration>
+      </li>
+      <li Class="RebornEvolvingMagic.CompProperties_UseEffect_AwakenSoul" />
+      <li Class="CompProperties_UseEffectDestroySelf" />
+    </comps>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>Make_REM_SoulMatrixCrystal</defName>
+    <label>condensar Cristal de Matriz da Alma</label>
+    <description>Condensa aço e ouro em um cristal espiritual capaz de despertar a alma de um colono.</description>
+    <jobString>Condensando Cristal de Matriz da Alma.</jobString>
+    <workAmount>1200</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Steel</li>
+          </thingDefs>
+        </filter>
+        <count>30</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Steel</li>
+        <li>Gold</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <REM_SoulMatrixCrystal>1</REM_SoulMatrixCrystal>
+    </products>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>DrugLab</li>
+      <li>TableMachining</li>
+    </recipeUsers>
+  </RecipeDef>
+
+  <!-- O Artefato Lendário: A Pérola Mágica -->
+  <ThingDef ParentName="ResourceBase">
+    <defName>REM_Item_MagicPearl</defName>
+    <label>A Pérola Mágica</label>
+    <description>Uma misteriosa pérola estelar de brilho pulsante e insondável densidade espiritual, idêntica ao artefato supremo de Dorian em 'Reborn: Evolving From Nothing'.\n\nAo ser consumida por um colono, a Pérola funde-se permanentemente à sua alma. Concede a habilidade de quebrar o teto biológico da espécie: absorver cadáveres de monstros para catalogar suas linhagens e remodelar a própria carne em metamorfose contínua.</description>
+    <thingClass>ThingWithComps</thingClass>
+    <graphicData>
+      <texPath>UI/RebornMagic/Gizmo_Breakthrough</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.0</drawSize>
+    </graphicData>
+    <soundInteract>Standard_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <stackLimit>1</stackLimit>
+    <statBases>
+      <MaxHitPoints>200</MaxHitPoints>
+      <MarketValue>2200</MarketValue>
+      <Mass>0.5</Mass>
+      <Flammability>0</Flammability>
+    </statBases>
+    <thingCategories>
+      <li>ItemsMisc</li>
+    </thingCategories>
+    <comps>
+      <li Class="CompProperties_Usable">
+        <useJob>UseItem</useJob>
+        <useLabel>Fundir Pérola Mágica à Alma</useLabel>
+        <useDuration>180</useDuration>
+      </li>
+      <li Class="RebornEvolvingMagic.CompProperties_UseEffect_BindMagicPearl" />
+      <li Class="CompProperties_UseEffectDestroySelf" />
+    </comps>
+  </ThingDef>
+
+  <RecipeDef>
+    <defName>Make_REM_MagicPearl</defName>
+    <label>fundir A Pérola Mágica</label>
+    <description>Concentra cristais da alma, jade místico e componentes arcanos para forjar a lendária Pérola Mágica.</description>
+    <jobString>Forjando a Pérola Mágica.</jobString>
+    <workAmount>3000</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smelt</soundWorking>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>REM_SoulMatrixCrystal</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Jade</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>REM_SoulMatrixCrystal</li>
+        <li>Jade</li>
+        <li>Gold</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <REM_Item_MagicPearl>1</REM_Item_MagicPearl>
+    </products>
+    <recipeUsers>
+      <li>CraftingSpot</li>
+      <li>DrugLab</li>
+      <li>TableMachining</li>
+    </recipeUsers>
+  </RecipeDef>
+
+</Defs>

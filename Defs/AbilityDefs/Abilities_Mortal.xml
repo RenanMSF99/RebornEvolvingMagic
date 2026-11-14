@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- JobDef para Meditação -->
+  <JobDef>
+    <defName>REM_Job_SoulMeditation</defName>
+    <driverClass>RebornEvolvingMagic.JobDriver_SoulMeditation</driverClass>
+    <reportString>meditando na Matriz da Alma (+100 Energia/h, +100 XP/h).</reportString>
+    <casualInterruptible>true</casualInterruptible>
+    <playerInterruptible>true</playerInterruptible>
+  </JobDef>
+
+  <!-- Habilidade 1: Meditar na Matriz da Alma -->
+  <AbilityDef>
+    <defName>REM_Ability_Meditate</defName>
+    <label>Meditar na Matriz</label>
+    <description>O cultivador senta e fecha seus sentidos para o exterior, circulando energia espiritual por sua Matriz de Feitiço da Alma.\n\n• Efeito: Recupera +100 Energia/hora e comprime +100 XP/hora para o Batismo das Leis da Magia.</description>
+    <abilityClass>RebornEvolvingMagic.Ability_SoulMeditation</abilityClass>
+    <iconPath>UI/RebornMagic/Gizmo_Breakthrough</iconPath>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <hostile>false</hostile>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <statBases>
+      <Ability_Duration>0</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>1.9</range>
+      <warmupTime>0.1</warmupTime>
+      <targetParams>
+        <canTargetSelf>true</canTargetSelf>
+      </targetParams>
+    </verbProperties>
+  </AbilityDef>
+
+  <!-- Habilidade 2: Absorver Matriz de Cadáver -->
+  <AbilityDef>
+    <defName>REM_Ability_AbsorbSoul</defName>
+    <label>Absorver Alma de Cadáver</label>
+    <description>Extrai e dissipa os resíduos de alma de um cadáver caído, convertendo-os em energia espiritual imediata e acelerando a compressão da Matriz.\n\n• Efeito: Restaura energia e concede XP proporcional ao tamanho do corpo.</description>
+    <abilityClass>RebornEvolvingMagic.Ability_AbsorbSoulMatrix</abilityClass>
+    <iconPath>UI/RebornMagic/Spell_AbsorbMatrix</iconPath>
+    <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
+    <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
+    <hostile>false</hostile>
+    <casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+    <statBases>
+      <Ability_Duration>0</Ability_Duration>
+    </statBases>
+    <verbProperties>
+      <verbClass>Verb_CastAbility</verbClass>
+      <range>15.9</range>
+      <warmupTime>0.5</warmupTime>
+      <targetParams>
+        <canTargetLocations>true</canTargetLocations>
+        <canTargetItems>true</canTargetItems>
+        <canTargetPawns>true</canTargetPawns>
+      </targetParams>
+    </verbProperties>
+  </AbilityDef>
+
+</Defs>

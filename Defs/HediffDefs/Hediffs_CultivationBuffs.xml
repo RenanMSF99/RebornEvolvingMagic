@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- 1. Pele de Pedra -->
+  <HediffDef>
+    <defName>REM_Hediff_StoneSkin</defName>
+    <label>Pele de Pedra</label>
+    <description>A pele do cultivador torna-se densa como granito ancestral reforçado com energia da terra, concedendo alta resistência a impactos, perfurações e calor, à custa de leve redução de mobilidade.</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_StoneSkin</hediffClass>
+    <defaultLabelColor>(0.85, 0.75, 0.50)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+  <!-- 2. Regeneração Acelerada -->
+  <HediffDef>
+    <defName>REM_Hediff_AcceleratedRegen</defName>
+    <label>Regeneração Acelerada</label>
+    <description>Energia vital espiritual transborda pelos meridianos biológicos, multiplicando drasticamente a regeneração natural e curando rapidamente ferimentos a cada segundo.</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_AcceleratedRegen</hediffClass>
+    <defaultLabelColor>(0.40, 0.95, 0.40)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+  <!-- 3. Escudo Psiônico -->
+  <HediffDef>
+    <defName>REM_Hediff_PsionicShield</defName>
+    <label>Escudo Psiônico</label>
+    <description>Uma barreira etérea de energia da alma envolve o cultivador. Absorve impactos físicos e mágicos nocivos até que sua integridade seja esgotada. Não impede o cultivador de atacar de dentro da barreira.</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_PsionicShield</hediffClass>
+    <defaultLabelColor>(0.35, 0.75, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+  <!-- 4. Pressa Espiritual -->
+  <HediffDef>
+    <defName>REM_Hediff_Haste</defName>
+    <label>Pressa Espiritual</label>
+    <description>Correntes de energia estimulam o sistema nervoso e as fibras musculares, acelerando drasticamente o movimento e a velocidade de execução de tarefas gerais.</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_Haste</hediffClass>
+    <defaultLabelColor>(1.0, 0.90, 0.30)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+  <!-- 5. Benção dos Céus -->
+  <HediffDef>
+    <defName>REM_Hediff_HeavensBlessing</defName>
+    <label>Benção dos Céus</label>
+    <description>A harmonia suprema da Classe Céu envolve o cultivador. Reúne blindagem quíntupla reforçada sem penalidade de movimento, regeneração vital acelerada e velocidade ampliada.</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_HeavensBlessing</hediffClass>
+    <defaultLabelColor>(1.0, 0.95, 0.45)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+  <!-- 6. Escudo da Alma -->
+  <HediffDef>
+    <defName>REM_Hediff_SoulShield</defName>
+    <label>Escudo da Alma</label>
+    <description>Barreira espiritual contínua que consome Energia e Vigor para conceder imunidade a efeitos mentais, psíquicos e espirituais.</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_SoulShield</hediffClass>
+    <defaultLabelColor>(0.85, 0.50, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+  <!-- 7. Barreira de Mana -->
+  <HediffDef>
+    <defName>REM_Hediff_ManaBarrier</defName>
+    <label>Barreira de Mana</label>
+    <description>Barreira reativa de éter puro que absorve dano recebido diretamente à custa de Energia da Alma (MP).</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_ManaBarrier</hediffClass>
+    <defaultLabelColor>(0.25, 0.85, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+  <!-- 8. Escudo de Éter -->
+  <HediffDef>
+    <defName>REM_Hediff_AetherShield</defName>
+    <label>Escudo de Éter</label>
+    <description>Escudo defensivo de longa duração (12h) que regenera constantemente de forma leve.</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_AetherShield</hediffClass>
+    <defaultLabelColor>(0.55, 0.88, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+  <!-- 9. Escudo Carmesim -->
+  <HediffDef>
+    <defName>REM_Hediff_CrimsonShield</defName>
+    <label>Escudo Carmesim</label>
+    <description>Barreira de sangue condensado que absorve impactos e reflete dano cortante com dreno vital contra atacantes corpo a corpo.</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_CrimsonShield</hediffClass>
+    <defaultLabelColor>(0.90, 0.20, 0.28)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+  <!-- 10. Muralha Infernal -->
+  <HediffDef>
+    <defName>REM_Hediff_InfernoWall</defName>
+    <label>Muralha Infernal</label>
+    <description>Anel circular de chamas em volta do conjurador que queima inimigos próximos, intercepta projéteis e reduz dano mágico recebido.</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_InfernoWall</hediffClass>
+    <defaultLabelColor>(1.0, 0.45, 0.15)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+  <!-- 11. Barreira Mental -->
+  <HediffDef>
+    <defName>REM_Hediff_MindBarrier</defName>
+    <label>Barreira Mental</label>
+    <description>Proteção temporária que concede alta resistência psíquica e estabilidade mental contra colapsos.</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_MindBarrier</hediffClass>
+    <defaultLabelColor>(0.70, 0.65, 1.0)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+  <!-- 12. Manto das Sombras -->
+  <HediffDef>
+    <defName>REM_Hediff_ShadowCloak</defName>
+    <label>Manto das Sombras</label>
+    <description>Véu sombrio que reduz drasticamente a precisão dos ataques e tiros inimigos contra o conjurador.</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_ShadowCloak</hediffClass>
+    <defaultLabelColor>(0.55, 0.45, 0.70)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+  <!-- 13. Surto Vital -->
+  <HediffDef>
+    <defName>REM_Hediff_VitalSurge</defName>
+    <label>Surto Vital</label>
+    <description>Eleva fortemente o ganho de imunidade a doenças e a regeneração natural por 12 horas.</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_VitalSurge</hediffClass>
+    <defaultLabelColor>(0.45, 0.95, 0.55)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+  <!-- 14. Luz Curativa -->
+  <HediffDef>
+    <defName>REM_Hediff_HealingLight</defName>
+    <label>Luz Curativa</label>
+    <description>Fecha ferimentos continuamente, restaura partes do corpo arrancadas e dobra a regeneração por 24 horas.</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_HealingLight</hediffClass>
+    <defaultLabelColor>(0.65, 1.0, 0.65)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+  <!-- 15. Posturas e Buffs Marciais/Temporais -->
+  <HediffDef>
+    <defName>REM_Hediff_MartialStance</defName>
+    <label>Postura de Cultivo</label>
+    <description>Estado de aprimoramento temporário da alma ou do corpo.</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_MartialStance</hediffClass>
+    <defaultLabelColor>(1.0, 0.75, 0.30)</defaultLabelColor>
+    <isBad>false</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+  <!-- 16. Debuffs de Controle e Decomposição -->
+  <HediffDef>
+    <defName>REM_Hediff_CultivationDebuff</defName>
+    <label>Aflição Espiritual</label>
+    <description>Restrição espacial, temporal ou decomposição imposta por uma técnica de cultivo.</description>
+    <hediffClass>RebornEvolvingMagic.Hediff_CultivationDebuff</hediffClass>
+    <defaultLabelColor>(0.85, 0.30, 0.45)</defaultLabelColor>
+    <isBad>true</isBad>
+    <everCurableByItem>false</everCurableByItem>
+  </HediffDef>
+
+</Defs>

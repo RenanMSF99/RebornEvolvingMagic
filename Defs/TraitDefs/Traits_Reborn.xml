@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- Trait: Alma Evolucionária (Firstborn) -->
+  <TraitDef>
+    <defName>REM_Trait_FirstbornSoul</defName>
+    <commonality>0.30</commonality>
+    <degreeDatas>
+      <li>
+        <label>Alma Evolucionária (Firstborn)</label>
+        <description>{PAWN_nameDef} nasceu com uma Matriz de Feitiço da Alma anômala conectada aos mistérios dos 30.000 Mundos. {PAWN_pronoun} já nasce com a alma desperta e possui afinidade inata com o cultivo e meditação.</description>
+        <statOffsets>
+          <GlobalLearningFactor>0.30</GlobalLearningFactor>
+          <MoveSpeed>0.20</MoveSpeed>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+  <!-- Trait: Portador da Pérola Mágica (O Reencarnado) -->
+  <TraitDef>
+    <defName>REM_Trait_MagicPearlBearer</defName>
+    <commonality>0.05</commonality>
+    <degreeDatas>
+      <li>
+        <label>Portador da Pérola Mágica</label>
+        <description>{PAWN_nameDef} carrega uma anomalia celestial cósmica fundida à sua alma: A Pérola Mágica. Diferente de qualquer outro ser vivo dos 30.000 Mundos, {PAWN_pronoun} não está preso ao seu invólucro humano, podendo absorver códigos genéticos de feras caídas e remodelar sua própria carne em metamorfose contínua.</description>
+        <statOffsets>
+          <GlobalLearningFactor>0.40</GlobalLearningFactor>
+          <MoveSpeed>0.30</MoveSpeed>
+          <MeleeHitChance>2</MeleeHitChance>
+        </statOffsets>
+      </li>
+    </degreeDatas>
+  </TraitDef>
+
+</Defs>

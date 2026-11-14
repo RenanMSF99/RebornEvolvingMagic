@@ -1,0 +1,9 @@
+# Visual Studio / Editor / OS temp files
+.vs/
+*.user
+*.suo
+*.pdb
+*.tmp
+Thumbs.db
+.DS_Store
+Desktop.ini

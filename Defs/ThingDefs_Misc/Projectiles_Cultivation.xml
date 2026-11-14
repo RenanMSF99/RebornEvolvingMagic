@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!-- 1. Projétil: Disparo da Alma (Soul Bolt) -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>REM_Proj_SoulBolt</defName>
+    <label>disparo da alma</label>
+    <thingClass>RebornEvolvingMagic.Projectile_SoulBolt</thingClass>
+    <graphicData>
+      <texPath>Projectiles/RebornMagic/Proj_SoulBolt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <color>(90, 225, 255)</color>
+      <drawSize>(1.15, 1.35)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Burn</damageDef>
+      <damageAmountBase>25</damageAmountBase>
+      <armorPenetrationBase>0.30</armorPenetrationBase>
+      <speed>65</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- 2. Projétil: Flecha de Fogo (Fire Arrow) -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>REM_Proj_FireArrow</defName>
+    <label>flecha de fogo</label>
+    <thingClass>RebornEvolvingMagic.Projectile_FireArrow</thingClass>
+    <graphicData>
+      <texPath>Projectiles/RebornMagic/Proj_FireArrow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <color>(255, 130, 35)</color>
+      <drawSize>(1.15, 1.45)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Flame</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <armorPenetrationBase>0.20</armorPenetrationBase>
+      <speed>55</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- 3. Projétil: Raio de Gelo (Frost Ray) -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>REM_Proj_FrostRay</defName>
+    <label>raio de gelo</label>
+    <thingClass>RebornEvolvingMagic.Projectile_FrostRay</thingClass>
+    <graphicData>
+      <texPath>Projectiles/RebornMagic/Proj_FrostRay</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <color>(130, 235, 255)</color>
+      <drawSize>(1.15, 1.45)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Frostbite</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <armorPenetrationBase>0.35</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- 4. Projétil: Lança Celestial (Sky Lance) -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>REM_Proj_SkyLance</defName>
+    <label>lança celestial</label>
+    <thingClass>RebornEvolvingMagic.Projectile_SkyLance</thingClass>
+    <graphicData>
+      <texPath>Projectiles/RebornMagic/Proj_SkyLance</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <color>(255, 225, 95)</color>
+      <drawSize>(1.45, 1.85)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Burn</damageDef>
+      <damageAmountBase>50</damageAmountBase>
+      <armorPenetrationBase>0.50</armorPenetrationBase>
+      <speed>85</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- 5. Projétil: Arco Voltaico (Chain Lightning) -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>REM_Proj_ChainLightning</defName>
+    <label>arco voltaico</label>
+    <thingClass>RebornEvolvingMagic.Projectile_ChainLightning</thingClass>
+    <graphicData>
+      <texPath>Projectiles/RebornMagic/Proj_ChainLightning</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <color>(120, 220, 255)</color>
+      <drawSize>(1.25, 1.45)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Burn</damageDef>
+      <damageAmountBase>45</damageAmountBase>
+      <armorPenetrationBase>0.40</armorPenetrationBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- 6. Projétil Parametrizado Unificado (61 Magias x 5 Estágios) -->
+  <ThingDef ParentName="BaseBullet">
+    <defName>REM_Proj_RebornSpell</defName>
+    <label>energia espiritual</label>
+    <thingClass>RebornEvolvingMagic.Projectile_RebornSpell</thingClass>
+    <graphicData>
+      <texPath>Projectiles/RebornMagic/Proj_SoulBolt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <color>(120, 225, 255)</color>
+      <drawSize>(1.25, 1.50)</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>Burn</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <armorPenetrationBase>0.25</armorPenetrationBase>
+      <speed>68</speed>
+    </projectile>
+  </ThingDef>
+
+  <!-- 7. Zona Persistente Espiritual (DarknessDomain, GlacialZone, TimeDilation, TimeSlow, TemporalStasis, SanctuaryDome, SolarSphere) -->
+  <ThingDef>
+    <defName>REM_Thing_SpellZone</defName>
+    <label>zona espiritual</label>
+    <thingClass>RebornEvolvingMagic.RebornSpellZone</thingClass>
+    <category>Ethereal</category>
+    <tickerType>Normal</tickerType>
+    <useHitPoints>false</useHitPoints>
+    <selectable>false</selectable>
+    <drawerType>RealtimeOnly</drawerType>
+    <graphicData>
+      <texPath>Motes/RebornMagic/RuneCircle</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>MoteGlow</shaderType>
+      <drawSize>(1.0, 1.0)</drawSize>
+    </graphicData>
+  </ThingDef>
+
+</Defs>
